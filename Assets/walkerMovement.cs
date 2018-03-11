@@ -9,6 +9,7 @@ public class walkerMovement : MonoBehaviour {
 	public float fieldOfView= 100f;
 	Animator animator;
 	private SphereCollider col;
+	public bool seen;
 
 	void Awake(){
 		player = GameObject.FindGameObjectWithTag ("Player").transform;
@@ -26,16 +27,22 @@ public class walkerMovement : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		Vector3 direction = player.transform.position - transform.position;
-		float angle = Vector3.Angle (direction, transform.forward);
+		if (!seen) {
+			Vector3 direction = player.transform.position - transform.position;
+			float angle = Vector3.Angle (direction, transform.forward);
 
-		if (angle < fieldOfView * 0.5f) {
-			RaycastHit hit;
-			Debug.DrawRay(transform.position + transform.up * 3, transform.forward * 1000f, Color.blue, Time.deltaTime, true);
-			if (Physics.Raycast (transform.position + transform.up * 3, direction.normalized, out hit, col.radius)) {
-				if (hit.collider.gameObject == player) {
-					animator.SetBool ("isSeen", true);
-					nav.SetDestination (player.transform.position);
+			if (angle < fieldOfView * 0.5f) {
+				RaycastHit hit;
+
+				Vector3 gunDirectionVector = new Vector3 (transform.position.x, player.transform.position.y, transform.position.z);
+
+				Debug.DrawRay (gunDirectionVector, direction.normalized * 1000f, Color.blue, Time.deltaTime, true);
+				if (Physics.Raycast (gunDirectionVector, direction.normalized, out hit, col.radius)) {
+					if (hit.collider.gameObject == player) {
+						animator.SetBool ("isSeen", true);
+						nav.SetDestination (player.transform.position);
+						seen = true;
+					}
 				}
 			}
 		}
