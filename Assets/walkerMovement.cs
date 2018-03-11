@@ -36,15 +36,25 @@ public class walkerMovement : MonoBehaviour {
 
 				Vector3 gunDirectionVector = new Vector3 (transform.position.x, player.transform.position.y, transform.position.z);
 
-				Debug.DrawRay (gunDirectionVector, direction.normalized * 1000f, Color.blue, Time.deltaTime, true);
+				//Debug.DrawRay (gunDirectionVector, direction.normalized * 1000f, Color.blue, Time.deltaTime, true);
 				if (Physics.Raycast (gunDirectionVector, direction.normalized, out hit, col.radius)) {
-					if (hit.collider.gameObject == player) {
+					if (hit.collider.gameObject.tag == "Player") {
 						animator.SetBool ("isSeen", true);
 						nav.SetDestination (player.transform.position);
 						seen = true;
 					}
 				}
 			}
+		} else {
+			nav.SetDestination (player.transform.position);
+
+			float dist = Vector3.Distance(player.position, transform.position);
+			if (dist <= nav.stoppingDistance + 1.2f) {
+				animator.SetBool ("isNear", true);
+			} else {
+				animator.SetBool ("isNear", false);
+			}
+
 		}
 	}
 }
