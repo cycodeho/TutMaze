@@ -1,7 +1,11 @@
 fileFormatVersion: 2
 guid: f668500df8d54495ca4325dcb87cc89e
 folderAsset: yes
+<<<<<<< HEAD:Assets/Script.meta
 timeCreated: 1520763725
+=======
+timeCreated: 1520782966
+>>>>>>> c2f85675080b77bc4841a53c17265d26d1a4d8b5:Assets/Yurowm/Animations/Legacy.meta
 licenseType: Free
 DefaultImporter:
   externalObjects: {}
