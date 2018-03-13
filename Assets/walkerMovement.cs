@@ -10,8 +10,9 @@ public class walkerMovement : MonoBehaviour {
 	private SphereCollider col;
 	public bool seen;
 	public float idleWalkRange = 10f;
-	public Vector3 nextPosition;
-	public float timer = 0f;
+	private Vector3 nextPosition;
+	private float timer = 0f;
+	public float randomRange = 10f;
 
 	void Awake(){
 		player = GameObject.FindGameObjectWithTag ("Player").transform;
@@ -46,12 +47,13 @@ public class walkerMovement : MonoBehaviour {
 						seen = true;
 					}
 				}
-			} else {
+			} 
+			if (!seen){
 				timer += Time.deltaTime;
-				if (timer >= 10) {
+				if (timer >= randomRange) {
 					nextPosition = new Vector3 (transform.position.x + Random.Range (-1 * idleWalkRange, idleWalkRange), 
 												transform.position.y,
-												transform.position.z + Random.Range (-1 * idleWalkRange, idleWalkRange),
+												transform.position.z + Random.Range (-1 * idleWalkRange, idleWalkRange)
 					);			
 					nav.SetDestination (nextPosition);
 					timer = 0f;
@@ -62,7 +64,6 @@ public class walkerMovement : MonoBehaviour {
 		} else {
 			nav.SetDestination (player.transform.position);
 			timer = 0f;
-			nextPosition = null;
 			float dist = Vector3.Distance(player.position, transform.position);
 			if (dist <= nav.stoppingDistance + 1.2f) {
 				animator.SetBool ("isNear", true);
