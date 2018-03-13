@@ -5,16 +5,17 @@ using UnityEngine;
 public class walkerMovement : MonoBehaviour {
 	Transform player;
 	UnityEngine.AI.NavMeshAgent nav;
-	GameObject walker;
 	public float fieldOfView= 100f;
 	Animator animator;
 	private SphereCollider col;
 	public bool seen;
+	public float idleWalkRange = 10f;
+	public Vector3 nextPosition;
+	public float timer = 0f;
 
 	void Awake(){
 		player = GameObject.FindGameObjectWithTag ("Player").transform;
 		nav = GetComponent <UnityEngine.AI.NavMeshAgent> ();
-		walker = GameObject.FindGameObjectWithTag ("Enermy");
 		animator = GetComponent<Animator>();
 		col = GetComponent<SphereCollider> ();
 	}
@@ -31,6 +32,7 @@ public class walkerMovement : MonoBehaviour {
 			Vector3 direction = player.transform.position - transform.position;
 			float angle = Vector3.Angle (direction, transform.forward);
 
+			// can see player?
 			if (angle < fieldOfView * 0.5f) {
 				RaycastHit hit;
 
@@ -44,10 +46,23 @@ public class walkerMovement : MonoBehaviour {
 						seen = true;
 					}
 				}
+			} else {
+				timer += Time.deltaTime;
+				if (timer >= 10) {
+					nextPosition = new Vector3 (transform.position.x + Random.Range (-1 * idleWalkRange, idleWalkRange), 
+												transform.position.y,
+												transform.position.z + Random.Range (-1 * idleWalkRange, idleWalkRange),
+					);			
+					nav.SetDestination (nextPosition);
+					timer = 0f;
+				}else{
+					nav.SetDestination (nextPosition);
+				}
 			}
 		} else {
 			nav.SetDestination (player.transform.position);
-
+			timer = 0f;
+			nextPosition = null;
 			float dist = Vector3.Distance(player.position, transform.position);
 			if (dist <= nav.stoppingDistance + 1.2f) {
 				animator.SetBool ("isNear", true);
