@@ -13,6 +13,7 @@ public class walkerMovement : MonoBehaviour {
 	private Vector3 nextPosition;
 	private float timer = 0f;
 	public float randomRange = 10f;
+	private float timeRange = 3f;
 
 	void Awake(){
 		player = GameObject.FindGameObjectWithTag ("Player").transform;
@@ -50,14 +51,18 @@ public class walkerMovement : MonoBehaviour {
 			} 
 			if (!seen){
 				timer += Time.deltaTime;
-				if (timer >= randomRange) {
+				if (timer >= timeRange) {
 					nextPosition = new Vector3 (transform.position.x + Random.Range (-1 * idleWalkRange, idleWalkRange), 
 												transform.position.y,
 												transform.position.z + Random.Range (-1 * idleWalkRange, idleWalkRange)
 					);			
 					nav.SetDestination (nextPosition);
+					animator.SetBool ("isRandomWalk", true);
 					timer = 0f;
 				}else{
+					if (Vector3.Distance (nextPosition, transform.position) < 0.2) {
+						animator.SetBool ("isRandomWalk", false);
+					}
 					nav.SetDestination (nextPosition);
 				}
 			}
