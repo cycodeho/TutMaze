@@ -10,6 +10,7 @@ public class walkerMovement : MonoBehaviour {
 	public float randomRange = 10f;
 	public float idleWalkRange = 10f;
 	public bool seen;
+	public bool walkWhenIdle = true;
 
 	private SphereCollider col;
 	private Vector3 nextPosition;
@@ -50,7 +51,7 @@ public class walkerMovement : MonoBehaviour {
 					}
 				}
 			} 
-			if (!seen){
+			if (!seen && walkWhenIdle){
 				if (timer >= timeRange) {
 					nextPosition = new Vector3 (transform.position.x + Random.Range (-1 * idleWalkRange, idleWalkRange), 
 												transform.position.y,
