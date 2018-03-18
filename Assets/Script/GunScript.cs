@@ -5,11 +5,9 @@ using UnityEngine;
 public class GunScript : MonoBehaviour {
 
     public float damage = 10f;
-    //public float range = 100f;
+    public float range = 100f;
 
     public Camera fpsCam;
-
-    public ParticleSystem mazzleFlash;
 
 	// Use this for initialization
 	void Start () {
@@ -29,17 +27,12 @@ public class GunScript : MonoBehaviour {
     {
         Debug.Log("EnterShoot");
         RaycastHit hit;
-        mazzleFlash.Play();
-
-
-        if (Physics.Raycast(fpsCam.transform.position, fpsCam.transform.forward, out hit))
+        if(Physics.Raycast(fpsCam.transform.position, fpsCam.transform.forward, out hit, range))
         {
             Debug.Log("Shoot:" + hit.transform.name);
 
             TargetScript target = hit.transform.GetComponent<TargetScript>();
-            Debug.Log("Shooting traget:" + target.name);
-
-            if (target != null)
+            if(target != null)
             {
                 Debug.Log("Damage:" + damage);
                 target.TakeDamage(damage);
