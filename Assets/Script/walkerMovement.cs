@@ -5,14 +5,15 @@ using UnityEngine;
 public class walkerMovement : MonoBehaviour {
 	Transform player;
 	UnityEngine.AI.NavMeshAgent nav;
-	public float fieldOfView= 100f;
 	Animator animator;
-	private SphereCollider col;
-	public bool seen;
+	public float fieldOfView= 100f;
+	public float randomRange = 10f;
 	public float idleWalkRange = 10f;
+	public bool seen;
+
+	private SphereCollider col;
 	private Vector3 nextPosition;
 	private float timer = 0f;
-	public float randomRange = 10f;
 	private float timeRange = 3f;
 
 	void Awake(){
@@ -50,7 +51,6 @@ public class walkerMovement : MonoBehaviour {
 				}
 			} 
 			if (!seen){
-				timer += Time.deltaTime;
 				if (timer >= timeRange) {
 					nextPosition = new Vector3 (transform.position.x + Random.Range (-1 * idleWalkRange, idleWalkRange), 
 												transform.position.y,
@@ -60,11 +60,14 @@ public class walkerMovement : MonoBehaviour {
 					animator.SetBool ("isRandomWalk", true);
 					timer = 0f;
 				}else{
-					if (Vector3.Distance (nextPosition, transform.position) < 0.2) {
+					if (Vector3.Distance (nextPosition, transform.position) < 0.0001) {
 						animator.SetBool ("isRandomWalk", false);
+					} else {
+						animator.SetBool ("isRandomWalk", true);
 					}
 					nav.SetDestination (nextPosition);
 				}
+				timer += Time.deltaTime;
 			}
 		} else {
 			nav.SetDestination (player.transform.position);
