@@ -32,3 +32,5 @@ obj/
 ehthumbs.db
 Thumbs.db
 *.mdb
+# include meta files
+!*.*.meta
