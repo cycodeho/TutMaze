@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class WalkerMovement : MonoBehaviour {
-	Transform player;
+
+	GameObject player;
+	Transform playerTransform;
 	UnityEngine.AI.NavMeshAgent nav;
 	Animator animator;
 	public float fieldOfView= 100f;
@@ -12,7 +14,6 @@ public class WalkerMovement : MonoBehaviour {
 	public bool seen;
 	public bool walkWhenIdle = true;
 	public float attackCompleteTime = 0.5f; // zombie attack animation length = 1.13; Thus, half of it => attack successful
-
 
 	PlayerHealth playerHealth;
 
@@ -25,7 +26,8 @@ public class WalkerMovement : MonoBehaviour {
 
 
 	void Awake(){
-		player = GameObject.FindGameObjectWithTag ("Player").transform;
+		player = GameObject.FindGameObjectWithTag ("Player");
+		playerTransform = player.transform;
 		nav = GetComponent <UnityEngine.AI.NavMeshAgent> ();
 		animator = GetComponent<Animator>();
 		col = GetComponent<SphereCollider> ();
@@ -46,20 +48,20 @@ public class WalkerMovement : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if (!seen) {
-			Vector3 direction = player.transform.position - transform.position;
+			Vector3 direction = playerTransform.transform.position - transform.position;
 			float angle = Vector3.Angle (direction, transform.forward);
 
 			// can see player?
 			if (angle < fieldOfView * 0.5f) {
 				RaycastHit hit;
 
-				Vector3 gunDirectionVector = new Vector3 (transform.position.x, player.transform.position.y, transform.position.z);
+				Vector3 gunDirectionVector = new Vector3 (transform.position.x, playerTransform.transform.position.y, transform.position.z);
 
 				//Debug.DrawRay (gunDirectionVector, direction.normalized * 1000f, Color.blue, Time.deltaTime, true);
 				if (Physics.Raycast (gunDirectionVector, direction.normalized, out hit, col.radius)) {
 					if (hit.collider.gameObject.tag == "Player") {
 						animator.SetBool ("isSeen", true);
-						nav.SetDestination (player.transform.position);
+						nav.SetDestination (playerTransform.transform.position);
 						seen = true;
 					}
 				}
@@ -85,8 +87,8 @@ public class WalkerMovement : MonoBehaviour {
 			}
 		} else {
 			if (!playerHealth.isDead) {
-				nav.SetDestination (player.transform.position);
-				float dist = Vector3.Distance (player.position, transform.position);
+				nav.SetDestination (playerTransform.transform.position);
+				float dist = Vector3.Distance (playerTransform.position, transform.position);
 				if (dist <= nav.stoppingDistance + 1.2f) {
 					animator.SetBool ("isNear", true);
 					timer += Time.deltaTime;

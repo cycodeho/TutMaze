@@ -41,6 +41,21 @@ public class PlayerHealth : MonoBehaviour {
 	public void TakeDamge(){
 		damaged = true;
 		currentHealth -= 1;
+		HealthChange ();
+		if (currentHealth <= 0 && !isDead) {
+			Death ();
+		}
+	}
+	public void Death(){
+		isDead = true;
+		playerMovement.enabled = false;
+		// should show a dialog asking whether they want to restart
+	}
+	public void Recover(){
+		currentHealth += 1;
+		HealthChange ();
+	}
+	public void HealthChange(){
 		Color HPBarColor;
 		if (currentHealth >= 8) {
 			HPBarColor = new Color (0f, 1f, 0f); // green
@@ -58,14 +73,5 @@ public class PlayerHealth : MonoBehaviour {
 				HPbars.Find (x => x.name == "HP" + (i + 1)).color = Color.clear;
 			}
 		}
-
-		if (currentHealth <= 0 && !isDead) {
-			Death ();
-		}
-	}
-	public void Death(){
-		isDead = true;
-		playerMovement.enabled = false;
-		// should show a dialog asking whether they want to restart
 	}
 }
