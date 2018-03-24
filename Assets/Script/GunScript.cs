@@ -27,7 +27,7 @@ public class GunScript : MonoBehaviour {
     {
         Debug.Log("EnterShoot");
         RaycastHit hit;
-        if(Physics.Raycast(fpsCam.transform.position, fpsCam.transform.forward, out hit, range))
+        if(Physics.Raycast(fpsCam.transform.position, fpsCam.transform.forward, out hit))
         {
             Debug.Log("Shoot:" + hit.transform.name);
 
