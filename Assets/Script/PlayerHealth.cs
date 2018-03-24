@@ -43,6 +43,7 @@ public class PlayerHealth : MonoBehaviour {
 		currentHealth -= 1;
 		HealthChange ();
 		if (currentHealth <= 0 && !isDead) {
+			HealthChange ();
 			Death ();
 		}
 	}
@@ -67,7 +68,7 @@ public class PlayerHealth : MonoBehaviour {
 			HPBarColor = new Color (1f, 0f, 0f); // red
 		}
 		for (int i = 0; i < HPbars.Count; i++) {
-			if (i <= currentHealth) {
+			if (i +1 <= currentHealth) {
 				HPbars.Find (x => x.name == "HP" + (i + 1)).color = HPBarColor;
 			} else {
 				HPbars.Find (x => x.name == "HP" + (i + 1)).color = Color.clear;
