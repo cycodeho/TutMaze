@@ -14,12 +14,18 @@ public class PlayerHealth : MonoBehaviour {
 	private UnityStandardAssets.Characters.FirstPerson.RigidbodyFirstPersonController playerMovement;
 	bool damaged;
 	bool isDead;
+	private List <RawImage> HPbars;
 
 	// Use this for initialization
 	void Start () {
 		currentHealth = startingHealth;
 		playerMovement = GetComponent<UnityStandardAssets.Characters.FirstPerson.RigidbodyFirstPersonController>();
 		damageImage = GameObject.Find ("DamageImage").GetComponents<RawImage>()[0];
+		GameObject[] objs = GameObject.FindGameObjectsWithTag ("HP");
+		HPbars = new List<RawImage> ();
+		for (int i = 0; i < objs.Length; i++){
+			HPbars.Add (objs [i].GetComponent<RawImage> ());
+		}
 	}
 	
 	// Update is called once per frame
@@ -34,7 +40,24 @@ public class PlayerHealth : MonoBehaviour {
 	public void TakeDamge(){
 		damaged = true;
 		currentHealth -= 1;
-		//healthSlider.value = currentHealth; // remaining HP
+		Color HPBarColor;
+		if (currentHealth >= 8) {
+			HPBarColor = new Color (0f, 1f, 0f); // green
+		} else if (currentHealth >= 5) {
+			HPBarColor = new Color (1f, 1f, 0f); // yellow
+		} else if (currentHealth >= 3) {
+			HPBarColor = new Color (1f, 0.549f, 0f); // orange
+		} else{
+			HPBarColor = new Color (1f, 0f, 0f); // red
+		}
+		for (int i = 0; i < HPbars.Count; i++) {
+			if (i <= currentHealth) {
+				HPbars.Find (x => x.name == "HP" + (i + 1)).color = HPBarColor;
+			} else {
+				HPbars.Find (x => x.name == "HP" + (i + 1)).color = Color.clear;
+			}
+		}
+
 		if (currentHealth <= 0 && !isDead) {
 			Death ();
 		}
