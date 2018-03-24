@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class walkerMovement : MonoBehaviour {
+public class WalkerMovement : MonoBehaviour {
 	Transform player;
 	UnityEngine.AI.NavMeshAgent nav;
 	Animator animator;
@@ -11,23 +11,37 @@ public class walkerMovement : MonoBehaviour {
 	public float idleWalkRange = 10f;
 	public bool seen;
 	public bool walkWhenIdle = true;
+	public float attackCompleteTime = 0.5f; // zombie attack animation length = 1.13; Thus, half of it => attack successful
+
+
+	PlayerHealth playerHealth;
 
 	private SphereCollider col;
 	private Vector3 nextPosition;
-	private float timer = 0f;
+	private float timer = 0f; // used for 1: random attack; 2: wether the player takes damage after attack (he can doge or run)
 	private float timeRange = 3f;
+	private float timeBetweenAttack = 0f;
+
+
 
 	void Awake(){
 		player = GameObject.FindGameObjectWithTag ("Player").transform;
 		nav = GetComponent <UnityEngine.AI.NavMeshAgent> ();
 		animator = GetComponent<Animator>();
 		col = GetComponent<SphereCollider> ();
+		playerHealth = player.GetComponent<PlayerHealth>();
 	}
 
 
 	// Use this for initialization
 	void Start () {
 		
+	}
+
+
+	void attackEnd(){
+		GameObject player = GameObject.FindGameObjectWithTag ("Player");
+		playerHealth.TakeDamge ();
 	}
 	
 	// Update is called once per frame
@@ -72,12 +86,20 @@ public class walkerMovement : MonoBehaviour {
 			}
 		} else {
 			nav.SetDestination (player.transform.position);
-			timer = 0f;
 			float dist = Vector3.Distance(player.position, transform.position);
 			if (dist <= nav.stoppingDistance + 1.2f) {
 				animator.SetBool ("isNear", true);
+				timer += Time.deltaTime;
+				if (timer >= attackCompleteTime + timeBetweenAttack) {
+					attackEnd ();
+					timer = 0f;
+					timeBetweenAttack = 0.5f;
+				}
+
 			} else {
 				animator.SetBool ("isNear", false);
+				timer = 0f;
+				timeBetweenAttack = 0f;
 			}
 
 		}
