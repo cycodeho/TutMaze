@@ -11,9 +11,10 @@ public class PlayerHealth : MonoBehaviour {
 	public RawImage damageImage;
 	public float flashSpeed = 0.5f;
 	public Color flashColor = new Color(1f, 0f, 0f);
-	private UnityStandardAssets.Characters.FirstPerson.RigidbodyFirstPersonController playerMovement;
+	public bool isDead;
+
 	bool damaged;
-	bool isDead;
+	private UnityStandardAssets.Characters.FirstPerson.RigidbodyFirstPersonController playerMovement;
 	private List <RawImage> HPbars;
 
 	// Use this for initialization

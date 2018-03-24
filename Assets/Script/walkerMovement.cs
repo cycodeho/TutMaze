@@ -40,7 +40,6 @@ public class WalkerMovement : MonoBehaviour {
 
 
 	void attackEnd(){
-		GameObject player = GameObject.FindGameObjectWithTag ("Player");
 		playerHealth.TakeDamge ();
 	}
 	
@@ -65,16 +64,16 @@ public class WalkerMovement : MonoBehaviour {
 					}
 				}
 			} 
-			if (!seen && walkWhenIdle){
+			if (!seen && walkWhenIdle) {
 				if (timer >= timeRange) {
 					nextPosition = new Vector3 (transform.position.x + Random.Range (-1 * idleWalkRange, idleWalkRange), 
-												transform.position.y,
-												transform.position.z + Random.Range (-1 * idleWalkRange, idleWalkRange)
+						transform.position.y,
+						transform.position.z + Random.Range (-1 * idleWalkRange, idleWalkRange)
 					);			
 					nav.SetDestination (nextPosition);
 					animator.SetBool ("isRandomWalk", true);
 					timer = 0f;
-				}else{
+				} else {
 					if (Vector3.Distance (nextPosition, transform.position) < 0.0001) {
 						animator.SetBool ("isRandomWalk", false);
 					} else {
@@ -85,23 +84,25 @@ public class WalkerMovement : MonoBehaviour {
 				timer += Time.deltaTime;
 			}
 		} else {
-			nav.SetDestination (player.transform.position);
-			float dist = Vector3.Distance(player.position, transform.position);
-			if (dist <= nav.stoppingDistance + 1.2f) {
-				animator.SetBool ("isNear", true);
-				timer += Time.deltaTime;
-				if (timer >= attackCompleteTime + timeBetweenAttack) {
-					attackEnd ();
+			if (!playerHealth.isDead) {
+				nav.SetDestination (player.transform.position);
+				float dist = Vector3.Distance (player.position, transform.position);
+				if (dist <= nav.stoppingDistance + 1.2f) {
+					animator.SetBool ("isNear", true);
+					timer += Time.deltaTime;
+					if (timer >= attackCompleteTime + timeBetweenAttack) {
+						attackEnd ();
+						timer = 0f;
+						timeBetweenAttack = 0.5f;
+					}
+
+				} else {
+					animator.SetBool ("isNear", false);
 					timer = 0f;
-					timeBetweenAttack = 0.5f;
+					timeBetweenAttack = 0f;
 				}
 
-			} else {
-				animator.SetBool ("isNear", false);
-				timer = 0f;
-				timeBetweenAttack = 0f;
 			}
-
 		}
 	}
 }
