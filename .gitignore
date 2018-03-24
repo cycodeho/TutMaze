@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # =============== #
 # Unity generated #
 # =============== #
@@ -34,3 +35,41 @@ Thumbs.db
 *.mdb
 # include meta files
 !*.*.meta
+=======
+# =============== #
+# Unity generated #
+# =============== #
+Temp/
+Library/
+ProjectSettings/
+UnityPackageManager/
+
+# ===================================== #
+# Visual Studio / MonoDevelop generated #
+# ===================================== #
+ExportedObj/
+obj/
+*.svd
+*.userprefs
+*.csproj
+*.pidb
+*.suo
+*.sln
+*.user
+*.unityproj
+*.booproj
+
+# ============ #
+# OS generated #
+# ============ #
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.mdb
+# include meta files
+!*.*.meta
+>>>>>>> d8f3ccebfcf0c8553d899847f2ac222d06790808
