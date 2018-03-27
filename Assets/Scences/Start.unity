@@ -331,7 +331,7 @@ MonoBehaviour:
   m_Script: {fileID: 1980459831, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -390,6 +390,7 @@ GameObject:
   - component: {fileID: 343693232}
   - component: {fileID: 343693234}
   - component: {fileID: 343693233}
+  - component: {fileID: 343693235}
   m_Layer: 5
   m_Name: Panel
   m_TagString: Untagged
@@ -450,6 +451,18 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 343693231}
+--- !u!114 &343693235
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 343693231}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fdb9b69bbabb74b38ae4acacc09acba4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timer: 0
 --- !u!1 &1010483801
 GameObject:
   m_ObjectHideFlags: 0
@@ -545,7 +558,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 700, y: 300}
+  m_SizeDelta: {x: 800, y: 1000}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1202539867
 MonoBehaviour:
@@ -568,7 +581,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 22
+    m_FontSize: 26
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -580,11 +593,11 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "In 1998, a research lab was developing a vaccine to cure brain cancer by
-    developing a certain virus to attack the cancer cells. \n\nHowever, they accidentally
+    developing a certain virus to attack the cancer cells. \n\n\nHowever, they accidentally
     made up a virus which would lead to blood mutation and change one to zombie. Even
-    worse, this virus could be air-borne and transmitted human to human. \n\nThis
+    worse, this virus could be air-borne and transmitted human to human. \n\n\nThis
     virus was leaked to the city through polluted waste after experiment. The lab
-    director then warned the world and dedicated to develop cure to this zombie sickness.\n"
+    director then warned the world and dedicated to develop cure to this zombie sickness."
 --- !u!222 &1202539868
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -623,8 +636,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 355, y: -155}
-  m_SizeDelta: {x: 700, y: 300}
+  m_AnchoredPosition: {x: 405, y: -505}
+  m_SizeDelta: {x: 800, y: 1000}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1292438413
 MonoBehaviour:
@@ -647,7 +660,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 22
+    m_FontSize: 26
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -662,7 +675,7 @@ MonoBehaviour:
     soon after the outbreak. \n\nHowever, the Lab-X staff was infected by the virus
     as well. Shortly after the vaccine has been completed, the director cannot inject
     himself with the vaccine on time and thus, he has transformed into a zombie. \n\nA
-    rescue signal was received from the mayor of the city. \n\nThe secret services
+    rescue signal was received from the mayor of the city...\n\nThe secret services
     of the federal government then tasked one of its top agents, G-man, to take back
     possession of the vaccine in Lab-X. After the mission briefing with his boss,
     he flew to the zombie city right after....\n\n"
