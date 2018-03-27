@@ -1,29 +1,51 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ExpositionScript : MonoBehaviour {
 
 
 	public float timer;
-	GameObject panel1;
-	GameObject panel2;
+	public Color textColor = Color.white;
+
+	private Text t1;
+	private Text t2;
+	private float fadeFactor = 1f;
+
 	// Use this for initialization
 	void Start () {
 		timer = 0f;
-		panel1 = GameObject.Find ("Panel1");
-		panel2 = GameObject.Find ("Panel2");
+		GameObject canvas = GameObject.Find ("Canvas");
+		//Text x = panel.GetComponent<UnityEngine.UI.Text> ();
+		Text[] temp = canvas.GetComponentsInChildren<Text> ();
+		if (temp [0].name == "Text1") {
+			t1 = temp [0];
+			t2 = temp [1];
+		} else {
+			t1 = temp [1];
+			t2 = temp [0];
+		}
+		t1.color = Color.clear;
+		t2.color = Color.clear;
 	}
-	
+
 	// Update is called once per frame
 	void Update () {
-		timer += Time.deltaTime;
-		if (timer > 5f && 10f > timer) {
-			panel2.SetActive (true);
-			panel1.SetActive (false);
 
-		} else if(timer > 10f){
-			panel2.SetActive (false);
+		if (timer < 5f) {
+			t1.color = Color.Lerp (t1.color, textColor, fadeFactor * Time.deltaTime);
+		}else if(timer < 7f) {
+			t1.color = Color.Lerp (t1.color, Color.clear, fadeFactor * Time.deltaTime);
+		} else if (timer < 12f) {
+			t2.color = Color.Lerp (t2.color, textColor, fadeFactor * Time.deltaTime);
+		} else if (timer < 14f) {
+			t2.color = Color.Lerp (t2.color, Color.clear, fadeFactor * Time.deltaTime);
+		} else {
+			t2.color = Color.clear; // for parparing restart
+			t1.color = Color.clear; 
+			// Jump Scense
 		}
+		timer += Time.deltaTime;
 	}
 }
