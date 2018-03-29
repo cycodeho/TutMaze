@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class PlayerHealth : MonoBehaviour {
 
@@ -51,6 +52,7 @@ public class PlayerHealth : MonoBehaviour {
 		isDead = true;
 		playerMovement.enabled = false;
 		// should show a dialog asking whether they want to restart
+		SceneManager.LoadScene("Dead");
 	}
 	public void Recover(){
 		currentHealth += 1;
