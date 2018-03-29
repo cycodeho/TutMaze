@@ -8,3 +8,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scences/Start.unity
     guid: 9f759df3bbf5941f9b0ce8cbdd3f4020
+  - enabled: 1
+    path: Assets/Scences/Lab.unity
+    guid: e81301ec289654cb9b486b8abd0db779

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class ExpositionScript : MonoBehaviour {
 
@@ -45,6 +46,7 @@ public class ExpositionScript : MonoBehaviour {
 			t2.color = Color.clear; // for parparing restart
 			t1.color = Color.clear; 
 			// Jump Scense
+			SceneManager.LoadScene("Lab");
 		}
 		timer += Time.deltaTime;
 	}
