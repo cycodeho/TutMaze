@@ -1,8 +1,4 @@
 sceneSetups:
-<<<<<<< HEAD
-- path: Assets/Scences/Test Scene.unity
-=======
-- path: Assets/Scences/Highway.unity
->>>>>>> 10ab722f191efc7c134316ff839d94d37ee725b4
+- path: Assets/Scences/Dark Lab.unity
   isLoaded: 1
   isActive: 1
