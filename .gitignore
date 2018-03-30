@@ -34,3 +34,4 @@ Thumbs.db
 *.mdb
 # include meta files
 !*.*.meta
+.gitignore.rtf
