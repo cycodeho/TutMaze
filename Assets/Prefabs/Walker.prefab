@@ -287,7 +287,7 @@ GameObject:
   - component: {fileID: 136773548717163070}
   - component: {fileID: 82214898556495488}
   - component: {fileID: 195463342791769734}
-  - component: {fileID: 114713551134631216}
+  - component: {fileID: 114010272924702338}
   m_Layer: 8
   m_Name: Walker
   m_TagString: Enermy
@@ -1453,7 +1453,7 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
---- !u!114 &114713551134631216
+--- !u!114 &114010272924702338
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -1461,7 +1461,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1538507221112184}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe9ec7c0d37a6413693d7eb83f4514f8, type: 3}
+  m_Script: {fileID: 11500000, guid: 3e9fe1c0e696f43ef87c00b04ea59b74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   fieldOfView: 100
