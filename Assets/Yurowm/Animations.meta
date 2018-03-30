@@ -1,7 +1,11 @@
 fileFormatVersion: 2
 guid: 2db00381a26db4513b7db1b1e60814d1
 folderAsset: yes
+<<<<<<< HEAD:Assets/Yurowm/Animations.meta
+timeCreated: 1522380780
+=======
 timeCreated: 1522370441
+>>>>>>> ac1430883214ff433da79205428ce0cb45b4b9a7:Assets/Yurowm/Animations.meta
 licenseType: Free
 DefaultImporter:
   externalObjects: {}
