@@ -18,11 +18,17 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 7c358c4... Merge branch 'master' of https://github.com/cycodeho/TutMaze
     y: 0
     width: 1680
     height: 1050
+=======
+    y: 45
+    width: 2560
+    height: 1391
+>>>>>>> parent of d90e23b... reshape Asset Resource
 =======
     y: 45
     width: 2560
@@ -34,9 +40,13 @@ MonoBehaviour:
   m_MinSize: {x: 950, y: 300}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> parent of f8ff400... Merge branch 'master' of https://github.com/cycodeho/TutMaze
+=======
+=======
+>>>>>>> parent of d90e23b... reshape Asset Resource
 =======
 =======
 >>>>>>> parent of d90e23b... reshape Asset Resource
@@ -47,6 +57,7 @@ MonoBehaviour:
   m_Title: 
   m_RootView: {fileID: 2}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_MinSize: {x: 950, y: 542}
 <<<<<<< HEAD
 >>>>>>> parent of f8ff400... Merge branch 'master' of https://github.com/cycodeho/TutMaze
@@ -54,6 +65,10 @@ MonoBehaviour:
 >>>>>>> parent of f8ff400... Merge branch 'master' of https://github.com/cycodeho/TutMaze
 =======
 >>>>>>> parent of 7c358c4... Merge branch 'master' of https://github.com/cycodeho/TutMaze
+=======
+  m_MinSize: {x: 950, y: 431}
+>>>>>>> 6761fb392bf36315170052c9327c64886dd4a2dc
+>>>>>>> parent of d90e23b... reshape Asset Resource
 =======
   m_MinSize: {x: 950, y: 431}
 >>>>>>> 6761fb392bf36315170052c9327c64886dd4a2dc
@@ -71,6 +86,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
 =======
   m_Script: {fileID: 12008, guid: 0000000000000000e000000000000000, type: 0}
@@ -82,10 +98,15 @@ MonoBehaviour:
   m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
 >>>>>>> parent of 7c358c4... Merge branch 'master' of https://github.com/cycodeho/TutMaze
 =======
+=======
+>>>>>>> parent of d90e23b... reshape Asset Resource
   m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
 =======
   m_Script: {fileID: 12008, guid: 0000000000000000e000000000000000, type: 0}
 >>>>>>> 6761fb392bf36315170052c9327c64886dd4a2dc
+<<<<<<< HEAD
+>>>>>>> parent of d90e23b... reshape Asset Resource
+=======
 >>>>>>> parent of d90e23b... reshape Asset Resource
   m_Name: 
   m_EditorClassIdentifier: 
@@ -96,9 +117,13 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> parent of f8ff400... Merge branch 'master' of https://github.com/cycodeho/TutMaze
+=======
+=======
+>>>>>>> parent of d90e23b... reshape Asset Resource
 =======
 =======
 >>>>>>> parent of d90e23b... reshape Asset Resource
@@ -111,7 +136,11 @@ MonoBehaviour:
     width: 1440
     height: 852
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_MinSize: {x: 950, y: 542}
+=======
+  m_MinSize: {x: 950, y: 431}
+>>>>>>> parent of d90e23b... reshape Asset Resource
 =======
   m_MinSize: {x: 950, y: 431}
 >>>>>>> parent of d90e23b... reshape Asset Resource
@@ -173,11 +202,15 @@ MonoBehaviour:
   - {fileID: 11}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> parent of f8ff400... Merge branch 'master' of https://github.com/cycodeho/TutMaze
 =======
 >>>>>>> parent of f8ff400... Merge branch 'master' of https://github.com/cycodeho/TutMaze
 =======
 >>>>>>> parent of 7c358c4... Merge branch 'master' of https://github.com/cycodeho/TutMaze
+=======
+>>>>>>> 6761fb392bf36315170052c9327c64886dd4a2dc
+>>>>>>> parent of d90e23b... reshape Asset Resource
 =======
 >>>>>>> 6761fb392bf36315170052c9327c64886dd4a2dc
 >>>>>>> parent of d90e23b... reshape Asset Resource
@@ -189,6 +222,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 7c358c4... Merge branch 'master' of https://github.com/cycodeho/TutMaze
     width: 1680
@@ -196,10 +230,13 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 342}
   m_MaxSize: {x: 12004, y: 8042}
 =======
+=======
+>>>>>>> parent of d90e23b... reshape Asset Resource
     width: 2560
     height: 1341
   m_MinSize: {x: 683, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
+<<<<<<< HEAD
 >>>>>>> parent of d90e23b... reshape Asset Resource
   vertical: 0
   controlID: 615
@@ -224,6 +261,11 @@ MonoBehaviour:
 >>>>>>> parent of 7c358c4... Merge branch 'master' of https://github.com/cycodeho/TutMaze
 =======
 =======
+  vertical: 0
+  controlID: 615
+--- !u!114 &3
+>>>>>>> parent of d90e23b... reshape Asset Resource
+=======
     width: 1440
     height: 802
   m_MinSize: {x: 708, y: 381}
@@ -232,6 +274,9 @@ MonoBehaviour:
   controlID: 78
 --- !u!114 &6
 >>>>>>> 6761fb392bf36315170052c9327c64886dd4a2dc
+<<<<<<< HEAD
+>>>>>>> parent of d90e23b... reshape Asset Resource
+=======
 >>>>>>> parent of d90e23b... reshape Asset Resource
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -244,8 +289,11 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 7c358c4... Merge branch 'master' of https://github.com/cycodeho/TutMaze
+=======
+>>>>>>> parent of d90e23b... reshape Asset Resource
 =======
 >>>>>>> parent of d90e23b... reshape Asset Resource
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
@@ -268,9 +316,13 @@ MonoBehaviour:
 --- !u!114 &4
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> parent of f8ff400... Merge branch 'master' of https://github.com/cycodeho/TutMaze
+=======
+=======
+>>>>>>> parent of d90e23b... reshape Asset Resource
 =======
 =======
 >>>>>>> parent of d90e23b... reshape Asset Resource
@@ -287,6 +339,7 @@ MonoBehaviour:
     width: 1007
     height: 802
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_MinSize: {x: 406, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
@@ -299,12 +352,17 @@ MonoBehaviour:
 =======
 >>>>>>> parent of 7c358c4... Merge branch 'master' of https://github.com/cycodeho/TutMaze
 =======
+=======
+>>>>>>> parent of d90e23b... reshape Asset Resource
   m_MinSize: {x: 406, y: 342}
   m_MaxSize: {x: 8006, y: 8042}
   vertical: 1
   controlID: 79
 --- !u!114 &7
 >>>>>>> 6761fb392bf36315170052c9327c64886dd4a2dc
+<<<<<<< HEAD
+>>>>>>> parent of d90e23b... reshape Asset Resource
+=======
 >>>>>>> parent of d90e23b... reshape Asset Resource
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -325,6 +383,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 7c358c4... Merge branch 'master' of https://github.com/cycodeho/TutMaze
     width: 312
@@ -333,11 +392,16 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 18}
 =======
+=======
+>>>>>>> parent of d90e23b... reshape Asset Resource
     width: 505
     height: 811
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 15}
+<<<<<<< HEAD
+>>>>>>> parent of d90e23b... reshape Asset Resource
+=======
 >>>>>>> parent of d90e23b... reshape Asset Resource
   m_Panes:
   - {fileID: 15}
@@ -346,9 +410,13 @@ MonoBehaviour:
 --- !u!114 &5
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> parent of f8ff400... Merge branch 'master' of https://github.com/cycodeho/TutMaze
+=======
+=======
+>>>>>>> parent of d90e23b... reshape Asset Resource
 =======
 =======
 >>>>>>> parent of d90e23b... reshape Asset Resource
@@ -358,6 +426,7 @@ MonoBehaviour:
   m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 93
 --- !u!114 &8
 <<<<<<< HEAD
@@ -366,6 +435,11 @@ MonoBehaviour:
 >>>>>>> parent of f8ff400... Merge branch 'master' of https://github.com/cycodeho/TutMaze
 =======
 >>>>>>> parent of 7c358c4... Merge branch 'master' of https://github.com/cycodeho/TutMaze
+=======
+  controlID: 161
+--- !u!114 &8
+>>>>>>> 6761fb392bf36315170052c9327c64886dd4a2dc
+>>>>>>> parent of d90e23b... reshape Asset Resource
 =======
   controlID: 161
 --- !u!114 &8
@@ -389,6 +463,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 7c358c4... Merge branch 'master' of https://github.com/cycodeho/TutMaze
     y: 605
@@ -398,12 +473,17 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 21}
 =======
+=======
+>>>>>>> parent of d90e23b... reshape Asset Resource
     y: 811
     width: 2041
     height: 530
   m_MinSize: {x: 232, y: 271}
   m_MaxSize: {x: 10002, y: 10021}
   m_ActualView: {fileID: 13}
+<<<<<<< HEAD
+>>>>>>> parent of d90e23b... reshape Asset Resource
+=======
 >>>>>>> parent of d90e23b... reshape Asset Resource
   m_Panes:
   - {fileID: 13}
@@ -413,9 +493,13 @@ MonoBehaviour:
 --- !u!114 &6
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> parent of f8ff400... Merge branch 'master' of https://github.com/cycodeho/TutMaze
+=======
+=======
+>>>>>>> parent of d90e23b... reshape Asset Resource
 =======
 =======
 >>>>>>> parent of d90e23b... reshape Asset Resource
@@ -432,11 +516,15 @@ MonoBehaviour:
 --- !u!114 &9
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> parent of f8ff400... Merge branch 'master' of https://github.com/cycodeho/TutMaze
 =======
 >>>>>>> parent of f8ff400... Merge branch 'master' of https://github.com/cycodeho/TutMaze
 =======
 >>>>>>> parent of 7c358c4... Merge branch 'master' of https://github.com/cycodeho/TutMaze
+=======
+>>>>>>> 6761fb392bf36315170052c9327c64886dd4a2dc
+>>>>>>> parent of d90e23b... reshape Asset Resource
 =======
 >>>>>>> 6761fb392bf36315170052c9327c64886dd4a2dc
 >>>>>>> parent of d90e23b... reshape Asset Resource
@@ -451,8 +539,11 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 7c358c4... Merge branch 'master' of https://github.com/cycodeho/TutMaze
+=======
+>>>>>>> parent of d90e23b... reshape Asset Resource
 =======
 >>>>>>> parent of d90e23b... reshape Asset Resource
   m_Script: {fileID: 12008, guid: 0000000000000000e000000000000000, type: 0}
@@ -464,9 +555,13 @@ MonoBehaviour:
   - {fileID: 8}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> parent of f8ff400... Merge branch 'master' of https://github.com/cycodeho/TutMaze
+=======
+=======
+>>>>>>> parent of d90e23b... reshape Asset Resource
 =======
 =======
 >>>>>>> parent of d90e23b... reshape Asset Resource
@@ -474,6 +569,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children: []
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> parent of f8ff400... Merge branch 'master' of https://github.com/cycodeho/TutMaze
@@ -484,10 +580,14 @@ MonoBehaviour:
 =======
 >>>>>>> 6761fb392bf36315170052c9327c64886dd4a2dc
 >>>>>>> parent of d90e23b... reshape Asset Resource
+=======
+>>>>>>> 6761fb392bf36315170052c9327c64886dd4a2dc
+>>>>>>> parent of d90e23b... reshape Asset Resource
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -511,6 +611,14 @@ MonoBehaviour:
 --- !u!114 &7
 =======
 >>>>>>> parent of d90e23b... reshape Asset Resource
+=======
+    width: 2560
+    height: 1391
+  m_MinSize: {x: 950, y: 300}
+  m_MaxSize: {x: 10000, y: 10000}
+--- !u!114 &7
+=======
+>>>>>>> parent of d90e23b... reshape Asset Resource
     width: 760
     height: 486
   m_MinSize: {x: 204, y: 221}
@@ -525,11 +633,15 @@ MonoBehaviour:
 --- !u!114 &10
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> parent of f8ff400... Merge branch 'master' of https://github.com/cycodeho/TutMaze
 =======
 >>>>>>> parent of f8ff400... Merge branch 'master' of https://github.com/cycodeho/TutMaze
 =======
 >>>>>>> parent of 7c358c4... Merge branch 'master' of https://github.com/cycodeho/TutMaze
+=======
+>>>>>>> 6761fb392bf36315170052c9327c64886dd4a2dc
+>>>>>>> parent of d90e23b... reshape Asset Resource
 =======
 >>>>>>> 6761fb392bf36315170052c9327c64886dd4a2dc
 >>>>>>> parent of d90e23b... reshape Asset Resource
@@ -544,6 +656,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Script: {fileID: 12011, guid: 0000000000000000e000000000000000, type: 0}
 =======
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
@@ -554,6 +667,12 @@ MonoBehaviour:
 =======
   m_Script: {fileID: 12011, guid: 0000000000000000e000000000000000, type: 0}
 >>>>>>> parent of 7c358c4... Merge branch 'master' of https://github.com/cycodeho/TutMaze
+=======
+  m_Script: {fileID: 12011, guid: 0000000000000000e000000000000000, type: 0}
+=======
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+>>>>>>> 6761fb392bf36315170052c9327c64886dd4a2dc
+>>>>>>> parent of d90e23b... reshape Asset Resource
 =======
   m_Script: {fileID: 12011, guid: 0000000000000000e000000000000000, type: 0}
 =======
@@ -570,8 +689,11 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 7c358c4... Merge branch 'master' of https://github.com/cycodeho/TutMaze
+=======
+>>>>>>> parent of d90e23b... reshape Asset Resource
 =======
 >>>>>>> parent of d90e23b... reshape Asset Resource
     y: 0
@@ -581,6 +703,7 @@ MonoBehaviour:
   m_MaxSize: {x: 0, y: 0}
   m_LastLoadedLayoutName: Default
 --- !u!114 &8
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -606,6 +729,8 @@ MonoBehaviour:
 >>>>>>> parent of 7c358c4... Merge branch 'master' of https://github.com/cycodeho/TutMaze
 =======
 =======
+>>>>>>> parent of d90e23b... reshape Asset Resource
+=======
     y: 486
     width: 1007
     height: 316
@@ -619,6 +744,9 @@ MonoBehaviour:
   m_LastSelected: 0
 --- !u!114 &11
 >>>>>>> 6761fb392bf36315170052c9327c64886dd4a2dc
+<<<<<<< HEAD
+>>>>>>> parent of d90e23b... reshape Asset Resource
+=======
 >>>>>>> parent of d90e23b... reshape Asset Resource
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -637,8 +765,11 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 7c358c4... Merge branch 'master' of https://github.com/cycodeho/TutMaze
+=======
+>>>>>>> parent of d90e23b... reshape Asset Resource
 =======
 >>>>>>> parent of d90e23b... reshape Asset Resource
     x: 0
@@ -674,9 +805,13 @@ MonoBehaviour:
 --- !u!114 &10
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> parent of f8ff400... Merge branch 'master' of https://github.com/cycodeho/TutMaze
+=======
+=======
+>>>>>>> parent of d90e23b... reshape Asset Resource
 =======
 =======
 >>>>>>> parent of d90e23b... reshape Asset Resource
@@ -684,6 +819,7 @@ MonoBehaviour:
     y: 0
     width: 433
     height: 802
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_MinSize: {x: 362, y: 411}
   m_MaxSize: {x: 4002, y: 4021}
@@ -693,10 +829,16 @@ MonoBehaviour:
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 20}
 >>>>>>> parent of d90e23b... reshape Asset Resource
+=======
+  m_MinSize: {x: 302, y: 381}
+  m_MaxSize: {x: 4002, y: 4021}
+  m_ActualView: {fileID: 20}
+>>>>>>> parent of d90e23b... reshape Asset Resource
   m_Panes:
   - {fileID: 18}
   - {fileID: 19}
   - {fileID: 20}
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_Selected: 1
   m_LastSelected: 0
@@ -708,10 +850,15 @@ MonoBehaviour:
 =======
 >>>>>>> parent of 7c358c4... Merge branch 'master' of https://github.com/cycodeho/TutMaze
 =======
+=======
+>>>>>>> parent of d90e23b... reshape Asset Resource
   m_Selected: 2
   m_LastSelected: 0
 --- !u!114 &12
 >>>>>>> 6761fb392bf36315170052c9327c64886dd4a2dc
+<<<<<<< HEAD
+>>>>>>> parent of d90e23b... reshape Asset Resource
+=======
 >>>>>>> parent of d90e23b... reshape Asset Resource
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -724,8 +871,11 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 7c358c4... Merge branch 'master' of https://github.com/cycodeho/TutMaze
+=======
+>>>>>>> parent of d90e23b... reshape Asset Resource
 =======
 >>>>>>> parent of d90e23b... reshape Asset Resource
   m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
@@ -745,6 +895,7 @@ MonoBehaviour:
   vertical: 0
   controlID: 548
 --- !u!114 &11
+<<<<<<< HEAD
 <<<<<<< HEAD
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -791,6 +942,10 @@ MonoBehaviour:
 >>>>>>> parent of f8ff400... Merge branch 'master' of https://github.com/cycodeho/TutMaze
 =======
 >>>>>>> parent of 7c358c4... Merge branch 'master' of https://github.com/cycodeho/TutMaze
+=======
+=======
+  m_Script: {fileID: 12015, guid: 0000000000000000e000000000000000, type: 0}
+>>>>>>> parent of d90e23b... reshape Asset Resource
 =======
 =======
   m_Script: {fileID: 12015, guid: 0000000000000000e000000000000000, type: 0}
@@ -894,6 +1049,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> parent of f8ff400... Merge branch 'master' of https://github.com/cycodeho/TutMaze
@@ -907,6 +1063,8 @@ MonoBehaviour:
       m_Name: 
       m_OriginalName: 
 =======
+=======
+>>>>>>> parent of d90e23b... reshape Asset Resource
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 1ec50000
@@ -916,6 +1074,9 @@ MonoBehaviour:
       m_UserAcceptedRename: 0
       m_Name: Player
       m_OriginalName: Player
+<<<<<<< HEAD
+>>>>>>> parent of d90e23b... reshape Asset Resource
+=======
 >>>>>>> parent of d90e23b... reshape Asset Resource
       m_EditFieldRect:
         serializedVersion: 2
@@ -924,15 +1085,21 @@ MonoBehaviour:
         width: 0
         height: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
       m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
       m_OriginalEventType: 11
 =======
+=======
+>>>>>>> parent of d90e23b... reshape Asset Resource
       m_UserData: 50728
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
       m_OriginalEventType: 0
+<<<<<<< HEAD
+>>>>>>> parent of d90e23b... reshape Asset Resource
+=======
 >>>>>>> parent of d90e23b... reshape Asset Resource
       m_IsRenamingFilename: 0
       m_ClientGUIView: {fileID: 8}
@@ -944,11 +1111,14 @@ MonoBehaviour:
   m_CurrentSortingName: TransformSorting
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> parent of f8ff400... Merge branch 'master' of https://github.com/cycodeho/TutMaze
 =======
 >>>>>>> parent of f8ff400... Merge branch 'master' of https://github.com/cycodeho/TutMaze
 =======
 >>>>>>> parent of 7c358c4... Merge branch 'master' of https://github.com/cycodeho/TutMaze
+=======
+>>>>>>> parent of d90e23b... reshape Asset Resource
 =======
 >>>>>>> parent of d90e23b... reshape Asset Resource
 --- !u!114 &14
@@ -960,6 +1130,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 1
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -990,6 +1161,11 @@ MonoBehaviour:
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
+=======
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+>>>>>>> parent of d90e23b... reshape Asset Resource
 <<<<<<< HEAD
   m_Children: []
   m_Position:
@@ -1011,6 +1187,9 @@ MonoBehaviour:
 =======
   m_AutoRepaintOnSceneChange: 1
   m_MinSize: {x: 200, y: 200}
+<<<<<<< HEAD
+>>>>>>> parent of d90e23b... reshape Asset Resource
+=======
 >>>>>>> parent of d90e23b... reshape Asset Resource
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
@@ -1030,6 +1209,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> parent of f8ff400... Merge branch 'master' of https://github.com/cycodeho/TutMaze
@@ -1039,14 +1219,24 @@ MonoBehaviour:
   m_SceneLighting: 1
   lastFramingTime: 10011.733057975769
 >>>>>>> parent of d90e23b... reshape Asset Resource
+=======
+  m_SceneLighting: 1
+  lastFramingTime: 10011.733057975769
+>>>>>>> parent of d90e23b... reshape Asset Resource
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: {x: 56.47193, y: 13.730299, z: 49.48696}
     speed: 2
     m_Value: {x: 56.47193, y: 13.730299, z: 49.48696}
+=======
+    m_Target: {x: 51.454445, y: -2.2587585, z: 54.05722}
+    speed: 2
+    m_Value: {x: 51.454445, y: -2.2587585, z: 54.05722}
+>>>>>>> parent of d90e23b... reshape Asset Resource
 =======
     m_Target: {x: 51.454445, y: -2.2587585, z: 54.05722}
     speed: 2
@@ -1076,6 +1266,7 @@ MonoBehaviour:
       m_Value: 0
   m_Rotation:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: {x: -0.1858151, y: 0.5411623, z: -0.12403583, w: -0.81069803}
     speed: 2
     m_Value: {x: -0.1858151, y: 0.5411623, z: -0.12403583, w: -0.81069803}
@@ -1084,6 +1275,8 @@ MonoBehaviour:
     speed: 2
     m_Value: 72.14871
 =======
+=======
+>>>>>>> parent of d90e23b... reshape Asset Resource
     m_Target: {x: -0.074947506, y: 0.9127716, z: -0.19484764, w: -0.35109165}
     speed: 2
     m_Value: {x: -0.074947506, y: 0.9127716, z: -0.19484764, w: -0.35109165}
@@ -1091,6 +1284,9 @@ MonoBehaviour:
     m_Target: 82.21098
     speed: 2
     m_Value: 82.21098
+<<<<<<< HEAD
+>>>>>>> parent of d90e23b... reshape Asset Resource
+=======
 >>>>>>> parent of d90e23b... reshape Asset Resource
   m_Ortho:
     m_Target: 0
@@ -1105,11 +1301,14 @@ MonoBehaviour:
   m_ViewIsLockedToObject: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> parent of f8ff400... Merge branch 'master' of https://github.com/cycodeho/TutMaze
 =======
 >>>>>>> parent of f8ff400... Merge branch 'master' of https://github.com/cycodeho/TutMaze
 =======
 >>>>>>> parent of 7c358c4... Merge branch 'master' of https://github.com/cycodeho/TutMaze
+=======
+>>>>>>> parent of d90e23b... reshape Asset Resource
 =======
 >>>>>>> parent of d90e23b... reshape Asset Resource
 --- !u!114 &15
@@ -1139,6 +1338,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 269
 =======
     x: 249
@@ -1150,6 +1350,8 @@ MonoBehaviour:
     x: 269
 >>>>>>> parent of 7c358c4... Merge branch 'master' of https://github.com/cycodeho/TutMaze
 =======
+=======
+>>>>>>> parent of d90e23b... reshape Asset Resource
     x: 468
     y: 181
     width: 973
@@ -1157,6 +1359,9 @@ MonoBehaviour:
 --- !u!114 &13
 =======
     x: 249
+<<<<<<< HEAD
+>>>>>>> parent of d90e23b... reshape Asset Resource
+=======
 >>>>>>> parent of d90e23b... reshape Asset Resource
     y: 94
     width: 756
@@ -1190,6 +1395,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     y: 654
     width: 1256
     height: 374
@@ -1199,9 +1405,15 @@ MonoBehaviour:
     height: 509
 >>>>>>> parent of d90e23b... reshape Asset Resource
 =======
+    y: 905
+    width: 2039
+    height: 509
+>>>>>>> parent of d90e23b... reshape Asset Resource
+=======
     y: 580
     width: 1005
     height: 295
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> parent of f8ff400... Merge branch 'master' of https://github.com/cycodeho/TutMaze
 =======
@@ -1214,6 +1426,8 @@ MonoBehaviour:
     width: 1256
     height: 374
 >>>>>>> parent of 7c358c4... Merge branch 'master' of https://github.com/cycodeho/TutMaze
+=======
+>>>>>>> parent of d90e23b... reshape Asset Resource
 =======
 >>>>>>> parent of d90e23b... reshape Asset Resource
   m_PersistentViewDataDictionary: {fileID: 0}
@@ -1239,6 +1453,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_StartGridSize: 16
 =======
   m_StartGridSize: 60
@@ -1249,6 +1464,9 @@ MonoBehaviour:
 =======
   m_StartGridSize: 16
 >>>>>>> parent of 7c358c4... Merge branch 'master' of https://github.com/cycodeho/TutMaze
+=======
+  m_StartGridSize: 64
+>>>>>>> parent of d90e23b... reshape Asset Resource
 =======
   m_StartGridSize: 64
 >>>>>>> parent of d90e23b... reshape Asset Resource
@@ -1269,6 +1487,7 @@ MonoBehaviour:
   m_LastProjectPath: /Users/wailunip/Desktop/CMSC5716project/TutMaze
   m_IsLocked: 0
   m_FolderTreeState:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1294,11 +1513,16 @@ MonoBehaviour:
 =======
 >>>>>>> parent of 7c358c4... Merge branch 'master' of https://github.com/cycodeho/TutMaze
 =======
+=======
+>>>>>>> parent of d90e23b... reshape Asset Resource
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: d6390000
     m_LastClickedID: 14806
     m_ExpandedIDs: 00000000282a0000442d0000f42e000000340000663400008c340000e0340000fa35000064390000b03a0000183c0000623c0000863c0000b03e0000b23e0000b43e0000b63e0000b83e0000ba3e0000bc3e0000be3e0000c03e0000c23e0000c43e0000c63e0000c83e0000ffffff7f
 >>>>>>> 6761fb392bf36315170052c9327c64886dd4a2dc
+<<<<<<< HEAD
+>>>>>>> parent of d90e23b... reshape Asset Resource
+=======
 >>>>>>> parent of d90e23b... reshape Asset Resource
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -1332,6 +1556,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_ExpandedIDs: 00000000122a0000f42c0000482d00004a2d00009e330000b2380000163b00000e570000
 =======
     m_ExpandedIDs: 000000003e3e00008e43000048500000c651000072520000fa5800009c5a00004c5f0000d2630000d4630000d6630000d8630000da630000dc630000de630000e0630000e2630000e4630000e6630000e8630000ea630000ec630000ee630000f0630000f2630000f4630000
@@ -1343,10 +1568,15 @@ MonoBehaviour:
     m_ExpandedIDs: 00000000122a0000f42c0000482d00004a2d00009e330000b2380000163b00000e570000
 >>>>>>> parent of 7c358c4... Merge branch 'master' of https://github.com/cycodeho/TutMaze
 =======
+=======
+>>>>>>> parent of d90e23b... reshape Asset Resource
     m_ExpandedIDs: 00000000b023000000ca9a3bffffff7f
 =======
     m_ExpandedIDs: 00000000282a0000442d0000003400008c340000e034000064390000623c0000b03e0000b23e0000b43e0000b63e0000b83e0000ba3e0000bc3e0000be3e0000c03e0000c23e0000c43e0000c63e0000c83e0000
 >>>>>>> 6761fb392bf36315170052c9327c64886dd4a2dc
+<<<<<<< HEAD
+>>>>>>> parent of d90e23b... reshape Asset Resource
+=======
 >>>>>>> parent of d90e23b... reshape Asset Resource
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -1377,6 +1607,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 7c358c4... Merge branch 'master' of https://github.com/cycodeho/TutMaze
     m_SelectedInstanceIDs: 4e060000
@@ -1397,6 +1628,18 @@ MonoBehaviour:
 >>>>>>> parent of f8ff400... Merge branch 'master' of https://github.com/cycodeho/TutMaze
 =======
 >>>>>>> parent of 7c358c4... Merge branch 'master' of https://github.com/cycodeho/TutMaze
+=======
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
+    m_HadKeyboardFocusLastEvent: 0
+    m_ExpandedInstanceIDs: c6230000
+=======
+    m_SelectedInstanceIDs: 1ec50000
+    m_LastClickedInstanceID: 50462
+    m_HadKeyboardFocusLastEvent: 1
+    m_ExpandedInstanceIDs: c62300008a6000002865000000000000
+>>>>>>> 6761fb392bf36315170052c9327c64886dd4a2dc
+>>>>>>> parent of d90e23b... reshape Asset Resource
 =======
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
@@ -1437,11 +1680,17 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 7c358c4... Merge branch 'master' of https://github.com/cycodeho/TutMaze
     m_GridSize: 16
   m_DirectoriesAreaWidth: 265
 --- !u!114 &17
+=======
+    m_GridSize: 64
+  m_DirectoriesAreaWidth: 115
+--- !u!114 &14
+>>>>>>> parent of d90e23b... reshape Asset Resource
 =======
     m_GridSize: 64
   m_DirectoriesAreaWidth: 115
@@ -1480,8 +1729,12 @@ MonoBehaviour:
     m_PrefName: Preview_InspectorPreview
   m_PreviewWindow: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!114 &18
 <<<<<<< HEAD
+=======
+--- !u!114 &15
+>>>>>>> parent of d90e23b... reshape Asset Resource
 =======
 --- !u!114 &15
 >>>>>>> parent of d90e23b... reshape Asset Resource
@@ -1489,6 +1742,7 @@ MonoBehaviour:
     m_GridSize: 60
   m_DirectoriesAreaWidth: 265
 --- !u!114 &17
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> parent of f8ff400... Merge branch 'master' of https://github.com/cycodeho/TutMaze
 =======
@@ -1498,6 +1752,9 @@ MonoBehaviour:
 >>>>>>> parent of f8ff400... Merge branch 'master' of https://github.com/cycodeho/TutMaze
 =======
 >>>>>>> parent of 7c358c4... Merge branch 'master' of https://github.com/cycodeho/TutMaze
+=======
+>>>>>>> 6761fb392bf36315170052c9327c64886dd4a2dc
+>>>>>>> parent of d90e23b... reshape Asset Resource
 =======
 >>>>>>> 6761fb392bf36315170052c9327c64886dd4a2dc
 >>>>>>> parent of d90e23b... reshape Asset Resource
@@ -1527,12 +1784,18 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 7c358c4... Merge branch 'master' of https://github.com/cycodeho/TutMaze
     y: 49
     width: 310
     height: 584
   m_PersistentViewDataDictionary: {fileID: 0}
+=======
+    y: 94
+    width: 503
+    height: 790
+>>>>>>> parent of d90e23b... reshape Asset Resource
 =======
     y: 94
     width: 503
@@ -1572,11 +1835,16 @@ MonoBehaviour:
   m_Locked: 0
   m_CurrentSortingName: TransformSorting
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!114 &19
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> parent of f8ff400... Merge branch 'master' of https://github.com/cycodeho/TutMaze
+=======
+--- !u!114 &16
+=======
+>>>>>>> parent of d90e23b... reshape Asset Resource
 =======
 --- !u!114 &16
 =======
@@ -1588,11 +1856,15 @@ MonoBehaviour:
 --- !u!114 &18
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> parent of f8ff400... Merge branch 'master' of https://github.com/cycodeho/TutMaze
 =======
 >>>>>>> parent of f8ff400... Merge branch 'master' of https://github.com/cycodeho/TutMaze
 =======
 >>>>>>> parent of 7c358c4... Merge branch 'master' of https://github.com/cycodeho/TutMaze
+=======
+>>>>>>> 6761fb392bf36315170052c9327c64886dd4a2dc
+>>>>>>> parent of d90e23b... reshape Asset Resource
 =======
 >>>>>>> 6761fb392bf36315170052c9327c64886dd4a2dc
 >>>>>>> parent of d90e23b... reshape Asset Resource
@@ -1607,8 +1879,11 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 7c358c4... Merge branch 'master' of https://github.com/cycodeho/TutMaze
+=======
+>>>>>>> parent of d90e23b... reshape Asset Resource
 =======
 >>>>>>> parent of d90e23b... reshape Asset Resource
   m_Script: {fileID: 12013, guid: 0000000000000000e000000000000000, type: 0}
@@ -1677,10 +1952,14 @@ MonoBehaviour:
   m_LastLockedObject: {fileID: 0}
   m_ViewIsLockedToObject: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!114 &20
 <<<<<<< HEAD
 =======
   m_Script: {fileID: 12019, guid: 0000000000000000e000000000000000, type: 0}
+=======
+--- !u!114 &17
+>>>>>>> parent of d90e23b... reshape Asset Resource
 =======
   m_Script: {fileID: 12019, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
@@ -1709,8 +1988,12 @@ MonoBehaviour:
     m_PrefName: Preview_InspectorPreview
   m_PreviewWindow: {fileID: 0}
 --- !u!114 &19
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 7c358c4... Merge branch 'master' of https://github.com/cycodeho/TutMaze
+=======
+>>>>>>> 6761fb392bf36315170052c9327c64886dd4a2dc
+>>>>>>> parent of d90e23b... reshape Asset Resource
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_PrefabParentObject: {fileID: 0}
@@ -1718,6 +2001,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 1
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_Script: {fileID: 12079, guid: 0000000000000000e000000000000000, type: 0}
 >>>>>>> parent of f8ff400... Merge branch 'master' of https://github.com/cycodeho/TutMaze
@@ -1772,6 +2056,8 @@ MonoBehaviour:
 <<<<<<< HEAD
 =======
 >>>>>>> parent of 7c358c4... Merge branch 'master' of https://github.com/cycodeho/TutMaze
+=======
+>>>>>>> parent of d90e23b... reshape Asset Resource
 =======
 >>>>>>> parent of d90e23b... reshape Asset Resource
   m_Script: {fileID: 12015, guid: 0000000000000000e000000000000000, type: 0}
@@ -1842,9 +2128,14 @@ MonoBehaviour:
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LowResolutionForAspectRatios: 01000000000100000100
 --- !u!114 &21
 <<<<<<< HEAD
+=======
+  m_LowResolutionForAspectRatios: 010000000001000001
+--- !u!114 &18
+>>>>>>> parent of d90e23b... reshape Asset Resource
 =======
   m_LowResolutionForAspectRatios: 010000000001000001
 --- !u!114 &18
@@ -1871,12 +2162,16 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
 --- !u!114 &20
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> parent of f8ff400... Merge branch 'master' of https://github.com/cycodeho/TutMaze
 =======
 --- !u!114 &20
 >>>>>>> parent of f8ff400... Merge branch 'master' of https://github.com/cycodeho/TutMaze
 =======
 >>>>>>> parent of 7c358c4... Merge branch 'master' of https://github.com/cycodeho/TutMaze
+=======
+>>>>>>> 6761fb392bf36315170052c9327c64886dd4a2dc
+>>>>>>> parent of d90e23b... reshape Asset Resource
 =======
 >>>>>>> 6761fb392bf36315170052c9327c64886dd4a2dc
 >>>>>>> parent of d90e23b... reshape Asset Resource
@@ -1891,6 +2186,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Script: {fileID: 12003, guid: 0000000000000000e000000000000000, type: 0}
 =======
   m_Script: {fileID: 12141, guid: 0000000000000000e000000000000000, type: 0}
@@ -1901,6 +2197,12 @@ MonoBehaviour:
 =======
   m_Script: {fileID: 12003, guid: 0000000000000000e000000000000000, type: 0}
 >>>>>>> parent of 7c358c4... Merge branch 'master' of https://github.com/cycodeho/TutMaze
+=======
+  m_Script: {fileID: 12003, guid: 0000000000000000e000000000000000, type: 0}
+=======
+  m_Script: {fileID: 12141, guid: 0000000000000000e000000000000000, type: 0}
+>>>>>>> 6761fb392bf36315170052c9327c64886dd4a2dc
+>>>>>>> parent of d90e23b... reshape Asset Resource
 =======
   m_Script: {fileID: 12003, guid: 0000000000000000e000000000000000, type: 0}
 =======
@@ -1924,6 +2226,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 7c358c4... Merge branch 'master' of https://github.com/cycodeho/TutMaze
     x: 0
@@ -1935,10 +2238,15 @@ MonoBehaviour:
 =======
 >>>>>>> parent of f8ff400... Merge branch 'master' of https://github.com/cycodeho/TutMaze
 =======
+=======
+>>>>>>> parent of d90e23b... reshape Asset Resource
     x: 8
     y: 718
     width: 1366
     height: 308
+=======
+<<<<<<< HEAD
+>>>>>>> parent of d90e23b... reshape Asset Resource
 =======
 >>>>>>> parent of d90e23b... reshape Asset Resource
     x: 1009
@@ -1947,11 +2255,14 @@ MonoBehaviour:
     height: 781
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> parent of f8ff400... Merge branch 'master' of https://github.com/cycodeho/TutMaze
 =======
 >>>>>>> parent of f8ff400... Merge branch 'master' of https://github.com/cycodeho/TutMaze
 =======
 >>>>>>> parent of 7c358c4... Merge branch 'master' of https://github.com/cycodeho/TutMaze
+=======
+>>>>>>> parent of d90e23b... reshape Asset Resource
 =======
 >>>>>>> parent of d90e23b... reshape Asset Resource
   m_PersistentViewDataDictionary: {fileID: 0}

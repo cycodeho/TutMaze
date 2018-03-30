@@ -4,6 +4,7 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TutMaze", "Assembly-CSharp-firstpass.csproj", "{F5AB6DEE-D2E7-99E7-0970-4C9C68C486E9}"
 EndProject
 <<<<<<< HEAD
@@ -20,6 +21,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TutMaze", "Assembly-CSharp-
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TutMaze", "Assembly-CSharp.csproj", "{FE30233F-FED0-CA2A-AB4D-8E31F25042A6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TutMaze", "Assembly-CSharp-firstpass.csproj", "{F5AB6DEE-D2E7-99E7-0970-4C9C68C486E9}"
+=======
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TutMaze", "Assembly-CSharp.csproj", "{FE30233F-FED0-CA2A-AB4D-8E31F25042A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TutMaze", "Assembly-CSharp-firstpass.csproj", "{F5AB6DEE-D2E7-99E7-0970-4C9C68C486E9}"
+>>>>>>> parent of d90e23b... reshape Asset Resource
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TutMaze", "Assembly-CSharp-Editor.csproj", "{07ECDD51-A49F-94FD-3C35-1304C0C123D0}"
 >>>>>>> parent of d90e23b... reshape Asset Resource
@@ -35,6 +41,7 @@ Global
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 		{F5AB6DEE-D2E7-99E7-0970-4C9C68C486E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F5AB6DEE-D2E7-99E7-0970-4C9C68C486E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F5AB6DEE-D2E7-99E7-0970-4C9C68C486E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -48,6 +55,8 @@ Global
 >>>>>>> parent of 7c358c4... Merge branch 'master' of https://github.com/cycodeho/TutMaze
 =======
 >>>>>>> parent of d90e23b... reshape Asset Resource
+=======
+>>>>>>> parent of d90e23b... reshape Asset Resource
 		{FE30233F-FED0-CA2A-AB4D-8E31F25042A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{FE30233F-FED0-CA2A-AB4D-8E31F25042A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FE30233F-FED0-CA2A-AB4D-8E31F25042A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -55,11 +64,17 @@ Global
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of d90e23b... reshape Asset Resource
 		{F5AB6DEE-D2E7-99E7-0970-4C9C68C486E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F5AB6DEE-D2E7-99E7-0970-4C9C68C486E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F5AB6DEE-D2E7-99E7-0970-4C9C68C486E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F5AB6DEE-D2E7-99E7-0970-4C9C68C486E9}.Release|Any CPU.Build.0 = Release|Any CPU
+<<<<<<< HEAD
+>>>>>>> parent of d90e23b... reshape Asset Resource
+=======
 >>>>>>> parent of d90e23b... reshape Asset Resource
 		{07ECDD51-A49F-94FD-3C35-1304C0C123D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{07ECDD51-A49F-94FD-3C35-1304C0C123D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
