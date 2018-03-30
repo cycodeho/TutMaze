@@ -34,9 +34,4 @@ Thumbs.db
 *.mdb
 # include meta files
 !*.*.meta
-<<<<<<< HEAD
-.gitignore.rtf
-=======
-*.meta
->>>>>>> 2fd381f9a16f2d76172188adecbbd8b39da3cc12
 *.meta
