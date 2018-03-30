@@ -52,7 +52,7 @@ public class PlayerHealth : MonoBehaviour {
 		isDead = true;
 		playerMovement.enabled = false;
 		// should show a dialog asking whether they want to restart
-		SceneManager.LoadScene("Dead");
+		//SceneManager.LoadScene("Dead");
 	}
 	public void Recover(){
 		currentHealth += 1;

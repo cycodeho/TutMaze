@@ -6,12 +6,14 @@ public class GunScript : MonoBehaviour {
 
     public float damage = 10f;
     public float range = 100f;
+	int shootableMask;
 
-    public Camera fpsCam;
+	public Camera fpsCam;
+	public float fireRadius = 50f;
 
 	// Use this for initialization
 	void Start () {
-		
+		shootableMask = LayerMask.GetMask ("Shootable");
 	}
 	
 	// Update is called once per frame
@@ -27,11 +29,12 @@ public class GunScript : MonoBehaviour {
     {
         Debug.Log("EnterShoot");
         RaycastHit hit;
-        if(Physics.Raycast(fpsCam.transform.position, fpsCam.transform.forward, out hit, range))
+
+		if(Physics.Raycast(fpsCam.transform.position , fpsCam.transform.forward, out hit,fireRadius , shootableMask))
         {
             Debug.Log("Shoot:" + hit.transform.name);
 
-            TargetScript target = hit.transform.GetComponent<TargetScript>();
+            WalkerHealthScript target = hit.transform.GetComponent<WalkerHealthScript>();
             if(target != null)
             {
                 Debug.Log("Damage:" + damage);
