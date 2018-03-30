@@ -1,7 +1,11 @@
 fileFormatVersion: 2
 guid: 11051a1260be34b98af047bd93f489e0
 folderAsset: yes
+<<<<<<< HEAD:Assets/Yurowm/Demo.meta
 timeCreated: 1522380780
+=======
+timeCreated: 1522370441
+>>>>>>> ac1430883214ff433da79205428ce0cb45b4b9a7:Assets/Yurowm/Demo.meta
 licenseType: Free
 DefaultImporter:
   externalObjects: {}
