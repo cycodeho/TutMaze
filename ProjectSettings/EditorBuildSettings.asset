@@ -12,5 +12,8 @@ EditorBuildSettings:
     path: Assets/Scences/Lab.unity
     guid: e81301ec289654cb9b486b8abd0db779
   - enabled: 1
+    path: Assets/Scences/Highway.unity
+    guid: 003f44ffebe6349aea65af2bc4f9b432
+  - enabled: 1
     path: Assets/Scences/Dead.unity
     guid: 69a2c24b9fc054d5bbf2ecf99b651276
